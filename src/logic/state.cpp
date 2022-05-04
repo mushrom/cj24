@@ -29,8 +29,8 @@ void print(jamState& state) {
 		}
 
 		switch (t.second.type) {
-			case tileState::Drawbridge: putchar('='); break;
-			case tileState::Ambush:     putchar('A'); break;
+			//case tileState::Drawbridge: putchar('='); break;
+			//case tileState::Ambush:     putchar('A'); break;
 			default: putchar('#'); break;
 		}
 
